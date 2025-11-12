@@ -23,3 +23,21 @@
 .img-principal {
     filter: brightness(0.7);
 }
+
+.product-card-img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card,
+.product-card-img {
+    border-radius: 10px;
+}
