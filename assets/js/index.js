@@ -10,7 +10,7 @@ products.forEach(product => {
         <div class="card-body">
             <h5 class="card-title">${product.title}</h5>
             <p class="card-text">${description}</p>
-            <a href="${product.link}" class="btn btn-primary">Visitar producto</a>
+            <a href="${product.link}" class="btn btn-dark">Visitar producto</a>
         </div>
     </div>
 `);
