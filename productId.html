@@ -19,14 +19,51 @@
 
     <main class="container my-5">
         <div class="row">
-            <img id="imgProduct" class="img-product">
+            <img id="imgProduct" class="img-product img-fluid shadow-lg">
             <div class="col">
                 <h1 id="productTitle" class="col"></h1>
                 <h5 id="productShorDescription" class="col"></h5>
                 <h6 id="producPrice" class="col"></h6>
+                <!-- ver para el estilo de agregar
+                https://www.falabella.com/falabella-cl/product/17515447/Sandalia-Mujer-Cuero-Negro-Makis-Kotris/17515449 
+                -->
             </div>
         </div>
-        <p id="productDesciption" class="col"></p>
+
+        <div class="accordion accordion-flush my-4 ">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Descripción
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <span id="productDesciption"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Características
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul id="ulFeatures">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="productDesciption" class="col my-4"></p>
     </main>
 
     <!-- footer -->
