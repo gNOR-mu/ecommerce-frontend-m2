@@ -1,14 +1,14 @@
 export const products = [
     {
         title: "Bergans jacket",
-        imgSrc: "assets/img/960px-OutDoor_2018,_Friedrichshafen_(1X7A0457).jpg",
+        imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/OutDoor_2018%2C_Friedrichshafen_%281X7A0457%29.jpg/800px-OutDoor_2018%2C_Friedrichshafen_%281X7A0457%29.jpg",
         link: "#",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam autem est doloremque, odio minima doloresrepellat unde fugiat rem et asperiores exercitationem aspernatur! Natus, voluptas perferendis a temporibus sed dolore!"
     },
 
     {
-        title: "Kit de ropa para la nieve",
-        imgSrc: "assets/img/mountain-snow-cold-winter-leather-clothing-856093-pxhere.com.jpg",
+        title: "Casaca para la nieve",
+        imgSrc: "https://c.pxhere.com/photos/48/d9/ski_winter_snow_mountain_alpine_skiing_winter_holidays_cold_brown-690099.jpg!d",
         link: "#",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam autem est doloremque, odio minima doloresrepellat unde fugiat rem et asperiores exercitationem aspernatur! Natus, voluptas perferendis a temporibus sed dolore!"
 
@@ -16,7 +16,7 @@ export const products = [
 
     {
         title: "Mochila de montaña",
-        imgSrc: "assets/img/nature-forest-walking-mountain-hiking-adventure-1395064-pxhere.com.jpg",
+        imgSrc: "https://i0.pickpik.com/photos/818/646/447/hiker-backpacker-backpacking-travelling-preview.jpg",
         link: "#",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam autem est doloremque, odio minima doloresrepellat unde fugiat rem et asperiores exercitationem aspernatur! Natus, voluptas perferendis a temporibus sed dolore!"
     }
