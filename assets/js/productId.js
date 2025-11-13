@@ -1,0 +1,34 @@
+import { products } from "./products.js";
+
+// formato moneda Chile
+const formatterCLP = new Intl.NumberFormat('es-CL', {
+    style: 'currency',
+    currency: 'CLP',
+});
+
+
+// obtiene la id de search param
+const urlParams = new URLSearchParams(window.location.search);
+const productId = urlParams.get('id');
+
+// busca en products
+const product = products.find(p => p.id == productId);
+
+// Si el producto no existe, redirige a la página principal
+if (!product || !`product.id`) {
+    alert("Producto no encontrado, redirigiendo al inicio")
+    window.location.href = '.';
+}
+
+// Cambio el título de la página por el titulo del elemento
+$(document).prop('title', product.title);
+
+// Muestra la info del producto
+
+$("#productTitle").text(product.title)
+$("#producPrice").text(formatterCLP.format(product.price))
+$("#productDesciption").text(product.description)
+$("#productShorDescription").text(product.shortDescription)
+const imgProduct = $("#imgProduct")
+imgProduct.attr("src", product.imgSrc)
+imgProduct.attr("alt", "Producto")
