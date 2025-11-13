@@ -5,7 +5,7 @@
 }
 
 
-.accordion-flush {
+.accordion {
     /* Color de fondo que tendrá el botón cuando esté abierto */
     --bs-accordion-active-bg: none;
 
