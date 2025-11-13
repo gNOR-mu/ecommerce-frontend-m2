@@ -29,6 +29,13 @@ $("#productTitle").text(product.title)
 $("#producPrice").text(formatterCLP.format(product.price))
 $("#productDesciption").text(product.description)
 $("#productShorDescription").text(product.shortDescription)
+
 const imgProduct = $("#imgProduct")
 imgProduct.attr("src", product.imgSrc)
 imgProduct.attr("alt", "Producto")
+
+const ulFeatures = $("#ulFeatures");
+
+product.features.forEach(feature => {
+    ulFeatures.append(`<li>${feature}</li>`)
+})
