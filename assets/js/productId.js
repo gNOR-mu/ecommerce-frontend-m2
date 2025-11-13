@@ -1,4 +1,4 @@
-import { products } from "./products.js";
+import { addProduct, getProductQuantity, products, subtractProduct } from "./products.js";
 
 // formato moneda Chile
 const formatterCLP = new Intl.NumberFormat('es-CL', {
@@ -25,17 +25,49 @@ $(document).prop('title', product.title);
 
 // Muestra la info del producto
 
-$("#productTitle").text(product.title)
-$("#producPrice").text(formatterCLP.format(product.price))
-$("#productDesciption").text(product.description)
-$("#productShorDescription").text(product.shortDescription)
+$("#productTitle").text(product.title);
+$("#producPrice").text(formatterCLP.format(product.price));
+$("#productDesciption").text(product.description);
+$("#productShorDescription").text(product.shortDescription);
 
-const imgProduct = $("#imgProduct")
+const imgProduct = $("#imgProduct");
 imgProduct.attr("src", product.imgSrc)
 imgProduct.attr("alt", "Producto")
 
-const ulFeatures = $("#ulFeatures");
 
+const ulFeatures = $("#ulFeatures");
 product.features.forEach(feature => {
     ulFeatures.append(`<li>${feature}</li>`)
+})
+
+const btnAdd = $("#btn-add")
+const btnRemove = $("#btn-remove")
+const quantity = $("#product-quantity")
+quantity.text(getProductQuantity(product.id))
+
+if (quantity.text() <= 0) {
+    btnRemove.attr("disabled", "true")
+}
+
+btnAdd.click(function () {
+    addProduct(product)
+
+    const newQuantity = getProductQuantity(product.id)
+    quantity.text(newQuantity)
+
+    if (newQuantity > 0) {
+        btnRemove.removeAttr("disabled")
+
+    }
+})
+
+btnRemove.click(function () {
+    subtractProduct(product.id)
+    const newQuantity = getProductQuantity(product.id)
+
+    quantity.text(newQuantity)
+    if (newQuantity <= 0) {
+        btnRemove.attr("disabled", "true")
+    }
+
 })
