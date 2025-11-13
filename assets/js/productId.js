@@ -1,10 +1,6 @@
 import { addProduct, getProductQuantity, products, subtractProduct } from "./products.js";
+import { formatterCLP } from "./util.js";
 
-// formato moneda Chile
-const formatterCLP = new Intl.NumberFormat('es-CL', {
-    style: 'currency',
-    currency: 'CLP',
-});
 
 
 // obtiene la id de search param

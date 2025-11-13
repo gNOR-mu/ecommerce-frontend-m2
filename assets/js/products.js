@@ -70,6 +70,14 @@ export function getTotalProductsInCart() {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     return cart.reduce((total, product) => total + product.quantity, 0);
 }
+//obtiene todos los productos
+export function getProductsInCart() {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    return cart.map(cartProduct => {
+        const productDetail = products.find(p => p.id === cartProduct.id);
+        return { ...productDetail, quantity: cartProduct.quantity };
+    });
+}
 
 // Agrega un producto a localstorage, de 1 en 1
 export function addProduct(product) {

@@ -1,7 +1,7 @@
 import { products } from "./products.js";
 
-
-products.forEach(product => {
+// Primeros 3 elementos
+products.slice(0, 3).forEach(product => {
     $("#products-container").append(`
     <div class="col-lg card p-0">
         <img src="${product.imgSrc}" class="card-img-top product-card-img" alt="Producto destacado: ${product.title}">
