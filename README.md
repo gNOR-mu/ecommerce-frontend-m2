@@ -1,4 +1,4 @@
-# E-commerce-front-end
+# ecommerce-frontend-m2
 
 Repositorio para proyecto del Módulo 2 – E-commerce (Frontend)
 
