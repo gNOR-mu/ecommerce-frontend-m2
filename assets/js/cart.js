@@ -1,4 +1,4 @@
-import { getProductsInCart } from "./products.js";
+import { getProductsInCart } from "./productUtil.js";
 import { formatterCLP } from "./util.js";
 
 const listProducts = $("#list-products")
