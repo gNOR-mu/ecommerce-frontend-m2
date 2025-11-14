@@ -6,9 +6,25 @@ export function updateProductTotal() {
     productTotal.text(totalProducts);
 }
 
+const actualPath = window.location.pathname;
+
+
 $("#header-placeholder").load("components/header.html", function () {
     $("#footer-placeholder").load("components/footer.html");
     updateProductTotal();
+
+    // cambia el color de la pestaña en el navbar según la página
+    if (actualPath.includes("index.html") || actualPath === "/") { //inicio
+        console.log($("#nav-index").html())
+        $("#nav-index").addClass("text-white")
+
+    } else if (actualPath.includes("product.html")) { //productos
+        $("#nav-product").addClass("text-white")
+
+    } else if (actualPath.includes("contact.html")) { //contacto
+        $("#nav-contact").addClass("text-white")
+    }
+
 });
 
 $(document).on("cartUpdated", updateProductTotal);
