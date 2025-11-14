@@ -1,4 +1,4 @@
-import { getTotalProductsInCart } from "./products.js";
+import { getTotalProductsInCart } from "./productUtil.js";
 
 export function updateProductTotal() {
     const productTotal = $("#product-total");
