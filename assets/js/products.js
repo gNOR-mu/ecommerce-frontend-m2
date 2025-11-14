@@ -1,6 +1,3 @@
-// localstorage {id:... , quantity}
-// guarda en localstorage
-
 export const products = [
     {
         id: 0,

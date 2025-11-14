@@ -20,7 +20,6 @@ if (!product || !`product.id`) {
 $(document).prop('title', product.title);
 
 // Muestra la info del producto
-
 $("#productTitle").text(product.title);
 $("#producPrice").text(formatterCLP.format(product.price));
 $("#productDesciption").text(product.description);

@@ -3,13 +3,6 @@ import { formatterCLP } from "./util.js";
 
 const listProducts = $("#list-products")
 
-// < li class="list-group-item" >
-//     <div class="row">
-//         <div class="col-md-4">Producto 1</div>
-//         <div class="col-md-4">2</div>
-//         <div class="col-md-4">$20.00</div>
-//     </div>
-//             </li >
 let total = 0;
 
 getProductsInCart().forEach(product => {
