@@ -15,7 +15,6 @@ $("#header-placeholder").load("components/header.html", function () {
 
     // cambia el color de la pestaña en el navbar según la página
     if (actualPath.includes("index.html") || actualPath === "/") { //inicio
-        console.log($("#nav-index").html())
         $("#nav-index").addClass("text-white")
 
     } else if (actualPath.includes("product.html")) { //productos
