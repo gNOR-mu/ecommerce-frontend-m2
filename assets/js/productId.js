@@ -1,7 +1,8 @@
-import { addProduct, getProductQuantity, products, subtractProduct } from "./products.js";
+// script página de productId
+// utilizada para cargar info de un producto en específico
+
+import { addProduct, getProductQuantity, products, subtractProduct } from "./productUtil.js";
 import { formatterCLP } from "./util.js";
-
-
 
 // obtiene la id de search param
 const urlParams = new URLSearchParams(window.location.search);

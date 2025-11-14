@@ -1,0 +1,63 @@
+[
+    {
+        "id": 0,
+        "price": 99990,
+        "title": "Mochila de expedición",
+        "imgSrc": "https://c.pxhere.com/photos/e1/74/backpack_hiking_backpack_hiking_mountains_forest_vietnam_nature_water_bottle-1395064.jpg!d",
+        "description": "Esta mochila de expedición está diseñada para los aventureros más exigentes. Confeccionada en Nylon de alta resistencia, garantiza durabilidad y protección contra los elementos. Su capacidad de 60 litros te permite llevar todo lo necesario para tus travesías, mientras que su diseño ergonómico asegura una distribución equilibrada del peso y un confort óptimo durante largas caminatas. El color azul vibrante no solo le da un toque de estilo, sino que también mejora la visibilidad en entornos naturales. Además, cuenta con múltiples compartimentos y correas ajustables para organizar tu equipo de manera eficiente. Ya sea para un trekking de varios días o una escalada desafiante, esta mochila es tu compañera ideal.",
+        "shortDescription": "Mochila de expedición de 60L. Ideal para viajes largos.",
+        "features": [
+            "Resistente al agua",
+            "Color: Azul",
+            "Peso: 1.5kg",
+            "Material: Nylon",
+            "Capacidad: 60L"
+        ]
+    },
+    {
+        "id": 1,
+        "price": 119990,
+        "title": "Mountain Bike",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Orbea_Occam_2020.jpg/1024px-Orbea_Occam_2020.jpg",
+        "description": "Esta Mountain Bike está diseñada para los amantes de la aventura y la velocidad. Con un cuadro de Aluminio ligero y resistente, esta bicicleta te ofrece la agilidad y durabilidad que necesitas para conquistar cualquier sendero. Equipada con 12 piñones, te permite adaptar tu pedaleo a cualquier tipo de terreno, desde subidas empinadas hasta descensos rápidos. Los frenos de Disco Hidráulico garantizan una frenada potente y segura en todas las condiciones climáticas, mientras que su suspensión delantera y trasera absorbe los impactos, proporcionando un viaje suave y controlado. Con un rodado de 29 pulgadas, esta bicicleta te ofrece una mayor estabilidad y tracción, ideal para explorar nuevos caminos y superar tus límites.",
+        "shortDescription": "Bicicleta de montaña rodado 29, 12 velocidades, frenos de disco hidráulicos.",
+        "features": [
+            "Rodado: 29",
+            "Piñones: 12",
+            "Material: Aluminio",
+            "Frenos: Disco Hidráulico",
+            "Suspensión: Delantera",
+            "Peso: 11kg"
+        ]
+    },
+    {
+        "id": 2,
+        "price": 24990,
+        "title": "Gafas de sol ",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Beach-sand-summer-46710.jpg/1024px-Beach-sand-summer-46710.jpg",
+        "description": "Estas gafas de sol están diseñadas para ofrecer la máxima protección y estilo. Con lentes de policarbonato de alta calidad, garantizan una protección UV 400, bloqueando el 100% de los rayos UVA y UVB. El material del marco, de plástico resistente y ligero, asegura un ajuste cómodo y duradero. El diseño clásico con lentes y marco negros las convierte en un accesorio versátil que complementa cualquier atuendo, ya sea para un día casual en la ciudad o para actividades al aire libre. Además, su construcción robusta las hace ideales para el uso diario, proporcionando una visión clara y sin distorsiones.",
+        "shortDescription": "Gafas de sol con protección UV400, lentes de policarbonato y marco de plástico.",
+        "features": [
+            "Protección UV: 400",
+            "Material del lente: Policarbonato",
+            "Material del marco: Plástico",
+            "Color del lente: Negro",
+            "Color del marco: Negro"
+        ]
+    },
+    {
+        "id": 3,
+        "price": 19990,
+        "title": "Tienda de campaña",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Husky_Tent_near_scout_camp_near_Kouty%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/1024px-Husky_Tent_near_scout_camp_near_Kouty%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+        "description": "Esta tienda de campaña es perfecta para tus aventuras al aire libre. Con capacidad para 2 personas, es ideal para parejas o campistas solitarios que buscan comodidad y protección. Fabricada con poliéster resistente al agua, te mantendrá seco y seguro incluso en condiciones climáticas adversas. Su diseño de fácil montaje te permite instalarla rápidamente, para que puedas disfrutar más de la naturaleza. El color verde se integra perfectamente en el entorno natural, y su peso ligero la hace fácil de transportar. Incluye una bolsa de transporte para mayor comodidad. Ya sea para un fin de semana de camping o una expedición más larga, esta tienda es tu refugio ideal.",
+        "shortDescription": "Tienda de campaña para 2 personas, resistente al agua, fácil de montar.",
+        "features": [
+            "Capacidad: 2 personas",
+            "Material: Poliéster",
+            "Resistencia al agua: Sí",
+            "Color: Verde",
+            "Peso: 2.5kg"
+        ]
+    }
+]
