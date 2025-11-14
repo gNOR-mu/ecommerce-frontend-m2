@@ -14,7 +14,7 @@ $("#header-placeholder").load("components/header.html", function () {
     updateProductTotal();
 
     // cambia el color de la pestaña en el navbar según la página
-    if (actualPath.includes("index.html") || actualPath === "/") { //inicio
+    if (actualPath.includes("index.html") || actualPath === "/" || actualPath === "https://gnor-mu.github.io/ecommerce-frontend-m2/") { //inicio
         $("#nav-index").addClass("text-white")
 
     } else if (actualPath.includes("product.html")) { //productos
