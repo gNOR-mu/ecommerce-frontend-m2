@@ -1,6 +1,6 @@
 // script página de productos
 
-import { products } from "./products.js";
+import { products } from "./productUtil.js";
 import { formatterCLP } from "./util.js";
 
 const productsContainer = $("#products-container");
